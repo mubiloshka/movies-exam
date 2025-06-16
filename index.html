@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>mubiloshka</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+
+
+    <h1 class="img"><img src="MOVIES!.png" alt=""></h1>
+    <div class="input-elements">
+      <input type="text" id="searchmovie" class="movie-input" placeholder="search your movie" />
+      
+      <select id="movie-type" class="filter-input">
+        <option value="all">All Genres</option>
+        <option value="drama">Drama</option>
+        <option value="action">Action</option>
+        <option value="adventure">Adventure</option>
+        <option value="animation">Animation</option>
+        <option value="biography">Biography</option>
+        <option value="comedy">Comedy</option>
+        <option value="crime">Crime</option>
+        <option value="family">Family</option>
+        <option value="fantasy">Fantasy</option>
+        <option value="documentary">Documentary</option>
+        <option value="history">History</option>
+        <option value="musical">Musical</option>
+        <option value="music">Music</option>
+        <option value="mystery">Mystery</option>
+        <option value="news">News</option>
+        <option value="war">War</option>
+        <option value="western">Western</option>
+    </select>
+
+    <select id="sort-movie" class="filter-input">
+        <option value="none">Sort By</option>
+        <option value="az">A-Z</option>
+        <option value="za">Z-A</option>
+        <option value="rating-desc">Rating (High-Low)</option>
+        <option value="rating-asc">Rating (Low-High)</option>
+        <option value="year-desc">Year (New-Old)</option>
+        <option value="year-asc">Year (Old-New)</option>
+    </select>
+
+    <button class="search-btn" id="search-btn">Search</button>
+    </div>
+</div>
+
+
+
+
+    <div class="containerMovie">
+      <div class="card">
+        
+        <img src="1200x675mf.jpg.png" alt="" class="movie-img">
+            <div class="card-content">
+                <h1 class="movie-title"></h1>
+                <div class="movie-info">
+                    <span class="rating"></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <p class="movie-genre"></p>
+                <button class="more-info-btn">More info</button>
+            </div>
+      </div>
+  </div>
+
+  <script type="module" src="movie.js"></script>
+  <script type="module" src="script.js"></script>
+</body>
+</html>

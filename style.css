@@ -1,0 +1,149 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2b2b2b;
+    color: white;
+    min-height: 100vh;
+  }
+  
+  .header {
+    width: 100%;
+    padding: 20px;
+    background-color: #1f1f1f;
+  }
+  
+  .img {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .input-elements {
+    text-align: center;
+    margin-top: 25px;
+  }
+  
+  .movie-input,
+  .filter-input {
+    height: 39px;
+    border-radius: 5px;
+    border: none;
+    padding: 0 10px;
+    background-color: white;
+    color: black;
+  }
+  
+  .movie-input {
+    width: 250px;
+  }
+  
+  .filter-input {
+    width: 150px;
+  }
+  
+  .search-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
+  
+
+  
+  .containerMovie {
+    padding: 40px 20px;
+  }
+  
+  .containerMovie {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+  
+  
+  
+  .card {
+    width: 244px;
+    height: 368px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0px 0px 15px 0px #00000080;
+  }
+  
+  
+  .movie-img {
+    top: 15px;
+    left: 15px;
+    border-radius: 10px;
+    position: absolute;
+    font-size: 18px;
+  }
+
+  .card-content {
+    position: absolute;
+    top: 176px; 
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+ 
+  .movie-title {
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+
+  .movie-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #e0e0e0;
+    text-align: center;
+  }
+  
+  .rating {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    font-weight: 600;
+  }
+  
+ 
+  .movie-genre {
+    text-align: center;
+    color: #b0b0b0;
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 1.3;
+    flex-grow: 1;
+  }
+  
+ 
+  .more-info-btn {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #45a049;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
